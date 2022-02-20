@@ -44,5 +44,4 @@ const Modal = (props) => {
     </React.Fragment>
   );
 };
-// TÄHÄN EHKÄ SULUT ^^
 export default Modal;
