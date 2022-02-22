@@ -1,4 +1,4 @@
-# react-share-app
+# Share app
 
 ## Installation
 * Download project files
