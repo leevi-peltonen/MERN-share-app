@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 
 import PlaceList from "../components/PlaceList";
 
+
 const DUMMY_PLACES = [
   {
     id: "p1",
@@ -19,7 +20,7 @@ const DUMMY_PLACES = [
   },
   {
     id: "p2",
-    title: "Empire State Building",
+    title: "Empire State Building xd",
     description: "One of the most famous sky scrapers in the world!",
     imageUrl:
       "https://en.wikipedia.org/wiki/Empire_State_Building#/media/File:Empire_State_Building_(aerial_view).jpg",
@@ -39,3 +40,4 @@ const UserPlaces = () => {
 };
 
 export default UserPlaces;
+export { DUMMY_PLACES };

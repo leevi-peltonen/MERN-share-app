@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
+import UpdatePlace from "./places/pages/UpdatePlace";
 import UserPlaces from './places/pages/UserPlaces';
 import Users from "./user/pages/Users";
 import NewPlace from "./places/pages/NewPlace";
@@ -15,7 +16,9 @@ const App = () => {
           <Route path="/" exact element={<Users />} />
           <Route path="/:userId/places" exact element={<UserPlaces />}/>
           <Route path="/places/new" exact element={<NewPlace />} />
+          <Route path="/places/:placeId" element={<UpdatePlace />} />
           <Route path="*" element={<Navigate to="/" />} />
+          
         </Routes>
       </main>
     </BrowserRouter>
